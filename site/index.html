@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FPO++ Training Workbench</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>FPO++ Training Workbench</h1>
+    <p class="tagline">Training observability for Amazon FAR flow-policy RL — no GPU required</p>
+  </header>
+
+  <section class="hero">
+    <pre><code>pip install fpo-workbench
+fpo-workbench demo --out out/demo
+fpo-workbench doctor out/demo/receipts/&lt;run-id&gt; --json</code></pre>
+    <p><a href="https://github.com/Abhishek21g/fpo-workbench">GitHub</a> · Built for researchers reproducing <a href="https://github.com/amazon-far/fpo-control">fpo-control</a></p>
+  </section>
+
+  <section>
+    <h2>Demo runs</h2>
+    <div id="runs" class="grid">Loading…</div>
+  </section>
+
+  <section class="signals">
+    <h2>Doctor signals</h2>
+    <ul>
+      <li><strong>reward_cliff</strong> — post-plateau collapse (#4)</li>
+      <li><strong>kl_spike</strong> — adaptive KL blow-up</li>
+      <li><strong>advantage_norm_proxy</strong> — surrogate loss spikes</li>
+      <li><strong>obs_norm_drift</strong> — normalizer std drift</li>
+    </ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

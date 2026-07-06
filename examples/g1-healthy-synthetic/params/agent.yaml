@@ -1,0 +1,16 @@
+experiment_name: g1_flat_flow
+max_iterations: 2000
+num_envs: 4096
+task_id: Isaac-Velocity-Flat-G1-v0
+policy:
+  sampling_steps: 64
+algorithm:
+  learning_rate: 0.0001
+  n_samples_per_action: 32
+  num_learning_epochs: 32
+  ema_decay: 0.95
+  normalize_advantage: true
+  schedule: fixed
+flow_eval_modes:
+  - zero
+  - random
