@@ -2,8 +2,8 @@
   "runs": [
     {
       "doctor": {
-        "run_id": "20260706T231603Z-g1-cliff-synthetic",
-        "receipt_dir": "/Users/enaguthiabhishek/Documents/fpo-workbench/out/site-export/receipts/20260706T231603Z-g1-cliff-synthetic",
+        "run_id": "20260707T064008Z-g1-cliff-synthetic",
+        "receipt_dir": "/Users/enaguthiabhishek/Documents/fpo-workbench/out/site-export/receipts/20260707T064008Z-g1-cliff-synthetic",
         "overall_status": "unhealthy",
         "baseline_grade": {
           "status": "pass",
@@ -57,7 +57,7 @@
         ]
       },
       "summary": {
-        "run_id": "20260706T231603Z-g1-cliff-synthetic",
+        "run_id": "20260707T064008Z-g1-cliff-synthetic",
         "input_log_dir": "/Users/enaguthiabhishek/Documents/fpo-workbench/examples/g1-cliff-synthetic",
         "experiment_name": "g1_flat_flow",
         "baseline": {
@@ -81,12 +81,12 @@
         "metrics_source": "metrics.jsonl",
         "reward_series_length": 5000
       },
-      "receipt_dir": "out/site-export/receipts/20260706T231603Z-g1-cliff-synthetic"
+      "receipt_dir": "out/site-export/receipts/20260707T064008Z-g1-cliff-synthetic"
     },
     {
       "doctor": {
-        "run_id": "20260706T231603Z-g1-healthy-synthetic",
-        "receipt_dir": "/Users/enaguthiabhishek/Documents/fpo-workbench/out/site-export/receipts/20260706T231603Z-g1-healthy-synthetic",
+        "run_id": "20260707T064008Z-g1-healthy-synthetic",
+        "receipt_dir": "/Users/enaguthiabhishek/Documents/fpo-workbench/out/site-export/receipts/20260707T064008Z-g1-healthy-synthetic",
         "overall_status": "healthy",
         "baseline_grade": {
           "status": "pass",
@@ -132,7 +132,7 @@
         ]
       },
       "summary": {
-        "run_id": "20260706T231603Z-g1-healthy-synthetic",
+        "run_id": "20260707T064008Z-g1-healthy-synthetic",
         "input_log_dir": "/Users/enaguthiabhishek/Documents/fpo-workbench/examples/g1-healthy-synthetic",
         "experiment_name": "g1_flat_flow",
         "baseline": {
@@ -150,7 +150,7 @@
         "metrics_source": "metrics.jsonl",
         "reward_series_length": 2000
       },
-      "receipt_dir": "out/site-export/receipts/20260706T231603Z-g1-healthy-synthetic"
+      "receipt_dir": "out/site-export/receipts/20260707T064008Z-g1-healthy-synthetic"
     }
   ]
 }

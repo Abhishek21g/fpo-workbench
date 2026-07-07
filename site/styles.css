@@ -23,6 +23,16 @@ body {
 header h1 { margin: 0; font-size: 1.75rem; }
 .tagline { color: var(--muted); margin-top: 0.25rem; }
 
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+.top-nav a { color: var(--accent); text-decoration: none; }
+.top-nav a:hover { text-decoration: underline; }
+
 .hero {
   background: var(--card);
   border: 1px solid var(--border);
